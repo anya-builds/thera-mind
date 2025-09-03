@@ -17,6 +17,10 @@ import {
 // import { useSession } from "@/lib/contexts/session-context";
 
 const Header = () => {
+      const navItems = [
+    { href: "/features", label: "Features" },
+    { href: "/about", label: "About Aura" },
+  ];
   return (
     <div  className="w-full fixed top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="absolute inset-0 border-b border-primary/10" />
