@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-  <p>
+  <div className="flex flex-col min-h-screen overflow-hidden">
     Hello World!!
-  </p>
+  </div>
   );
 }
