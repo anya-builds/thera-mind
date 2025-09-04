@@ -11,9 +11,9 @@ import {
   LogOut,
   LogIn,
 } from "lucide-react";
-// import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "./theme-toggle";
-// import { SignInButton } from "@/components/auth/sign-in-button";
+import { SignInButton } from "@/components/auth/sign-in-button";
 // import { useSession } from "@/lib/contexts/session-context";
 
 const Header = () => {
