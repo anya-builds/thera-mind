@@ -12,7 +12,7 @@ import {
   LogIn,
 } from "lucide-react";
 // import { Button } from "@/components/ui/button";
-// import { ThemeToggle } from "./theme-toggle";
+import { ThemeToggle } from "./theme-toggle";
 // import { SignInButton } from "@/components/auth/sign-in-button";
 // import { useSession } from "@/lib/contexts/session-context";
 
@@ -53,6 +53,10 @@ const Header = () => {
                 </Link>
               ))}
             </nav>
+             <div className="flex items-center gap-3">
+               <ThemeToggle />
+               <SignInButton />
+             </div>
             
             </div>
             </div>
